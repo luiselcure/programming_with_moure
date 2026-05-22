@@ -8,13 +8,13 @@ def print_date(date):
     print(date.day)
     print(date.hour)
     print(date.minute)
-    print(date.timestamp)
+    print(date.timestamp())
 
 
 
 #Utilizamos el metodo now() para inicializar la fecha con el momento actual
 now= datetime.now()
-
+#impri
 print_date(now)
 
 timestamp= now.timestamp()

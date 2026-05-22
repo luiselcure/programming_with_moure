@@ -53,3 +53,7 @@ console.log(myArray)
 //length propiedad que permite saber la longitud del array (cantidad de elementos)
 
 console.log(myArray.length)
+
+//Clear
+
+myArray=[]
